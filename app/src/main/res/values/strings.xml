@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">WineLog</string>
+    <string name="new_bottle" translatable="true">New bottle</string>
+</resources>
