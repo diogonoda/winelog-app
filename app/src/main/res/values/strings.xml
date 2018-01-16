@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name" translatable="false">WineLog</string>
+
     <string name="new_bottle" translatable="true">New bottle</string>
+
+    <string name="login_text" translatable="false">Login</string>
+    <string name="login_hint" translatable="true">Insert your login</string>
+    <string name="passwd_text" translatable="true">Password</string>
+    <string name="passwd_hint" translatable="true">Insert your password</string>
+    <string name="login_button" translatable="true">Sign in</string>
 </resources>

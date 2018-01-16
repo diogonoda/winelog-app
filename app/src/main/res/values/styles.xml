@@ -10,4 +10,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="Dnoda">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="Dnoda.Button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
 </resources>
