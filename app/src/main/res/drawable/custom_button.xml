@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
+    <item android:state_pressed="true"
+        android:textAllCaps="false">
         <shape>
             <solid android:color="@color/colorPrimaryDark"/>
             <stroke
@@ -14,7 +15,7 @@
                 android:bottom="@dimen/button_default_padding"/>
         </shape>
     </item>
-    <item>
+    <item android:textAllCaps="false">
         <shape>
             <gradient
                 android:startColor="@color/colorPrimaryDark"

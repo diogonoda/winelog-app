@@ -26,11 +26,11 @@ public class LoginActivity extends AppCompatActivity {
         String passwd = etPasswd.getText().toString();
 
         if(login.equals("admin") && passwd.equals("admin")){
-            Intent intent = new Intent(this, MainActivity.class);
-            intent.putExtra("user", login);
+            Intent intent = new Intent(this, MenuActivity.class);
+//            intent.putExtra("user", login);
 
             startActivity(intent);
-            finish();
+//            finish();
         }else{
             Toast.makeText(this, "User or password error", Toast.LENGTH_SHORT).show();
         }

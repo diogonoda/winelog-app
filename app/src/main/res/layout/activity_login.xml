@@ -46,6 +46,7 @@
         android:onClick="login"
         android:text="@string/login_button"
         android:textColor="@color/colorText"
-        style="@style/Dnoda.Button"/>
+        style="@style/Dnoda.Button"
+        android:textAllCaps="false"/>
 
 </RelativeLayout>
