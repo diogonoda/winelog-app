@@ -12,6 +12,6 @@ public interface WineAPI {
     @GET("/wine/name/{name}")
     Call<Wine> findWine(@Path("name")String name);
 
-    @POST("wine/new")
-    Call<Wine> save(@Body Wine wine);
+    @POST("/wine")
+    Call<Void> save(@Body Wine wine);
 }
