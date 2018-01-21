@@ -14,4 +14,6 @@
     <string name="about">Sobre</string>
     <string name="exit">Sair</string>
 
+    <string name="wine_name">Nome do Vinho</string>
+    <string name="save_button" translatable="true">Salvar</string>
 </resources>

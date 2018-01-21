@@ -1,5 +1,6 @@
 package br.com.dnoda.winelog_app;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,7 +34,9 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void newWine(View view){
-        Toast.makeText(this, "O jogo ainda está sendo construído", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, NewWineActivity.class);
+
+        startActivity(intent);
     }
 
     public void wineList(View view){

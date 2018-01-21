@@ -14,4 +14,6 @@
     <string name="about" translatable="true">About</string>
     <string name="exit" translatable="true">Exit</string>
 
+    <string name="wine_name" translatable="true">Wine Name</string>
+    <string name="save_button" translatable="true">Save</string>
 </resources>
