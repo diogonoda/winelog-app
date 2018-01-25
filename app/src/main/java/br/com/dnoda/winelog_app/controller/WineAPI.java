@@ -1,5 +1,7 @@
 package br.com.dnoda.winelog_app.controller;
 
+import java.util.List;
+
 import br.com.dnoda.winelog_app.model.Wine;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -14,4 +16,7 @@ public interface WineAPI {
 
     @POST("/wine")
     Call<Void> save(@Body Wine wine);
+
+    @GET("/wine")
+    Call<List<Wine>> listWines();
 }

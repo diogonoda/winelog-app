@@ -40,6 +40,10 @@ public class NewWineActivity extends AppCompatActivity {
                 .enqueue(new Callback<Void>(){
                     @Override
                     public void onResponse(Call<Void> call, Response<Void> response) {
+                        etName.setText("");
+                        etReview.setText("");
+
+                        final boolean b = etName.requestFocus();
                         Toast.makeText(NewWineActivity.this, "Successfully saved", Toast.LENGTH_SHORT).show();
                     }
 
