@@ -38,7 +38,7 @@ public class WineAdapter extends RecyclerView.Adapter<WineAdapter.WineViewHolder
 
         @Override
         public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-            
+
         }
     }
 
