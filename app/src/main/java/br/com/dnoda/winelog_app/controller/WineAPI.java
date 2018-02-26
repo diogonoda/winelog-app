@@ -17,6 +17,4 @@ public interface WineAPI {
     @POST("/wine")
     Call<Void> save(@Body Wine wine);
 
-    @GET("/wine")
-    Call<List<Wine>> listWines();
 }

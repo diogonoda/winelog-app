@@ -62,6 +62,7 @@ public class NewWineActivity extends AppCompatActivity {
         return new Retrofit.Builder()
                 .baseUrl("https://dnoda-winelog.herokuapp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
+                .client(client)
                 .build();
     }
 }

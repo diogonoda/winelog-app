@@ -24,14 +24,14 @@ public class MenuActivity extends AppCompatActivity {
         btExit = (Button) findViewById(R.id.btExit);
 
 
-        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/steelworksvintage.ttf");
+/*        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/steelworksvintage.ttf");
 
         btNewWine.setTypeface(font);
         btListWine.setTypeface(font);
         btEditWine.setTypeface(font);
         btAbout.setTypeface(font);
         btExit.setTypeface(font);
-    }
+*/    }
 
     public void newWine(View view){
         Intent intent = new Intent(this, NewWineActivity.class);
@@ -40,7 +40,9 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void wineList(View view){
-        Toast.makeText(this, "O jogo ainda está sendo construído", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ListWineActivity.class);
+
+        startActivity(intent);
     }
 
     public void editWine(View view){
